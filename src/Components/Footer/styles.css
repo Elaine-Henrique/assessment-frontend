@@ -1,0 +1,13 @@
+.footer {
+    width: 70%;
+    height: 80px;
+    background: rgb(204, 13, 31);
+    margin: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .footer {
+        width: 95%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,43 @@
+.viewContainer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.resume {
+    height: 30px;
+    padding-top: 10px;
+}
+
+.destak {
+	color: rgb(204, 13, 31);
+}
+
+.viewTitle {
+    display: flex;
+    font-size: 10px;
+}
+
+.viewContent {
+    display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .viewContainer {
+        width: 95%;
+    }
+    .viewContent {
+        flex-direction: column;
+    }
+    .viewTitle {
+        font-size: 18px;
+    }
+    .destak {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+    .viewContainer {
+        width: 95%;
+    }
+}

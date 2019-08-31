@@ -1,0 +1,84 @@
+.filter {
+    width: 20%;
+    margin-top:5px;
+}
+
+.board {
+    padding: 10px;
+    border: 1px solid rgb(223, 222, 220);
+}
+.filter h2 {
+	color: rgb(204, 13, 31);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.filter h3 {
+	color: rgb(98, 144, 141);
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+.filterItemLink {
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+    line-height: 25px;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.filterItem {
+	text-decoration: none;
+}
+
+.colors {
+    display: flex;
+    margin-top: 8px;
+}
+
+.red {
+    width: 35px;
+    height: 20px;
+    margin-right: 2px;
+    background: rgb(204, 13, 31);
+}
+
+.orange {
+    width: 35px;
+    height: 20px;
+    margin-right: 2px;
+    background: rgb(243, 99, 36);
+}
+
+.blue {
+    width: 35px;
+    height: 20px;
+    background: rgb(40, 163, 170);
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .filter {
+        width: 95%;
+    }
+
+    .filter h2 {
+        font-size: 26px;
+        padding-left: 10px;
+    }
+    
+    .filter h3 {
+        font-size: 22px;
+        padding-left: 10px;
+
+    }
+    
+    .filterItemLink {
+        font-size: 18px;
+        margin-left: 28px;
+    }
+        
+    .red {
+        margin-left: 10px;
+    }
+        
+}
